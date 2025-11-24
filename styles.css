@@ -14,6 +14,7 @@
 
 /*The Header*/
 header {
+  display: block;
   background-color: #731576;
   padding: 20px;
   text-align: center;
@@ -42,6 +43,7 @@ img:hover {
 
 /*Simple Text formatting*/
 p {
+  display: block;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   color: #000000;
@@ -56,6 +58,7 @@ p {
 }
 
 a.cred {
+  display: block;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   color: #606060;
@@ -66,7 +69,8 @@ a.cred:hover {
 }
 
 /*The article Text Formatting*/
-.txt {
+txt {
+  display: block;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   text-align: left;
@@ -74,6 +78,7 @@ a.cred:hover {
 }
 
 a.txt {
+  display: block;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
   color: #2b2b2b;
@@ -100,14 +105,20 @@ button:hover {
   background-color: rgb(99, 0, 77);
   color: rgb(255, 203, 244);
 }
+button:focus {
+  background-color: rgb(99, 0, 77);
+  color: rgb(255, 203, 244);
+}
 
 /*Formatting for the footer to be small and linked to my github*/
 footer {
   font-size: 20px;
+  display: block;
   font-style: italic;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #000000;
   padding: 1.5%;
 }
+
 
