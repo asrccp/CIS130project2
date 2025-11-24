@@ -1,0 +1,102 @@
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header'
+    'About'
+    'Donate'
+    'Volunteer'
+    'footer';
+  background-color: rgb(247, 163, 229);
+  gap: 10px;
+}
+
+header {
+  background-color: #731576;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(255, 193, 242);
+}
+
+section {
+  display: grid;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: auto;
+  vertical-align: center;
+  transition: all ease-out 2s;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #000000;
+}
+
+.cred {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #6c6c6c;
+}
+
+a.cred {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #606060;
+}
+
+a.cred:hover {
+  color: #313131;
+}
+
+.txt {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: left;
+  color: #272727;
+}
+
+a.txt {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: #2b2b2b;
+}
+
+a.txt:hover {
+  font-size: 25px;
+  color: #000000;
+  transition: opacity 2s ease-in;
+}
+
+button {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: rgb(255, 91, 219);
+}
+
+button:hover {
+  background-color: rgb(99, 0, 77);
+  color: rgb(255, 203, 244);
+}
+
+footer {
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000000;
+  padding: 1.5%;
+}
