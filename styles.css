@@ -58,7 +58,6 @@ p {
 }
 
 .cred:hover {
-    font-size: 25px;
   color: #313131;
 }
 
@@ -70,7 +69,6 @@ a.cred {
 }
 
 a.cred:hover {
-    font-size: 25px;
   color: #313131;
 }
 
@@ -90,10 +88,6 @@ a.txt {
   color: #2b2b2b;
 }
 
-a.txt:hover {
-  font-size: 30px;
-  color: #000000;
-}
 
 /*Formatting for the button*/
 button {
@@ -125,6 +119,7 @@ footer {
   background-color: #F1F1F1F1;
   padding: 1.5%;
 }
+
 
 
 
