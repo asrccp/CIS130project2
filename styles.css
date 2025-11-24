@@ -1,3 +1,5 @@
+
+/*The Grid Container for the layout for the site*/
 .grid-container {
   display: grid;
   grid-template-areas:
@@ -10,6 +12,7 @@
   gap: 10px;
 }
 
+/*The Header*/
 header {
   background-color: #731576;
   padding: 20px;
@@ -17,11 +20,12 @@ header {
   font-size: 35px;
   color: rgb(255, 193, 242);
 }
-
+/*Telling the page to use a Grid Layout*/
 section {
   display: grid;
 }
 
+/*The Image code, set to be centered, ease out when not hovered on and be 80% of it's size.*/
 img {
   display: block;
   margin-left: auto;
@@ -31,17 +35,20 @@ img {
   vertical-align: center;
   transition: all ease-out 2s;
 }
-
+/*To expand to 1.2 of it's original size when the mouse hovers over it.*/
 img:hover {
   transform: scale(1.2);
 }
 
+/*Simple Text formatting*/
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   color: #000000;
 }
 
+
+/*Formatting for the Credit text under the photos of the Candidate*/
 .cred {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
@@ -58,6 +65,7 @@ a.cred:hover {
   color: #313131;
 }
 
+/*The article Text Formatting*/
 .txt {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
@@ -77,6 +85,7 @@ a.txt:hover {
   transition: opacity 2s ease-in;
 }
 
+/*Formatting for the button*/
 button {
   background-color: rgb(255, 255, 255);
   text-align: center;
@@ -92,6 +101,7 @@ button:hover {
   color: rgb(255, 203, 244);
 }
 
+/*Formatting for the footer to be small and linked to my github*/
 footer {
   font-size: 20px;
   font-style: italic;
@@ -100,3 +110,4 @@ footer {
   background-color: #000000;
   padding: 1.5%;
 }
+
